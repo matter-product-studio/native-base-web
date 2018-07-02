@@ -2,6 +2,7 @@
 'use strict';
 
 import React from 'react';
+import createReactClass from 'create-react-class';
 import {Picker, Modal} from 'react-native';
 import NativeBaseComponent from '../Base/NativeBaseComponent';
 import computeProps from '../../Utils/computeProps';
@@ -19,7 +20,7 @@ import _ from 'lodash';
 
 export default class PickerNB extends NativeBaseComponent {
 
-    
+
     constructor(props) {
         super(props);
         this.state = {
@@ -98,7 +99,7 @@ export default class PickerNB extends NativeBaseComponent {
 
 }
 
-PickerNB.Item = React.createClass({
+PickerNB.Item = createReactClass({
 
     render: function() {
         return(
