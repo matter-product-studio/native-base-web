@@ -2,12 +2,13 @@
 'use strict';
 
 import React from 'react';
+import createReactClass from 'create-react-class';
 import {Picker} from 'react-native';
 import NativeBaseComponent from '../Base/NativeBaseComponent';
 import computeProps from '../../Utils/computeProps';
 
 export default class PickerNB extends NativeBaseComponent {
-    
+
     getInitialStyle() {
         return {
             picker: {
@@ -39,7 +40,7 @@ export default class PickerNB extends NativeBaseComponent {
 
 }
 
-PickerNB.Item = React.createClass({
+PickerNB.Item = createReactClass({
 
     render: function() {
         return(

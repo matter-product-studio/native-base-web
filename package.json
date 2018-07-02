@@ -22,6 +22,7 @@
   "dependencies": {
     "clamp": "^1.0.1",
     "color": "^0.11.3",
+    "create-react-class": "^15.6.3",
     "lodash": "^4.15.0",
     "react-icons": "^2.2.1"
   },
