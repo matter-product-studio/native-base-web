@@ -18,25 +18,25 @@ export default class IconNB extends NativeBaseComponent {
             // case 'Entypo':
             //     this.Icon = Entypo;
             //     break;
-            case 'FontAwesome':
-                this.Icon = require(`react-icons/lib/fa/${this.props.name}`);
-                break;
+            // case 'FontAwesome':
+            //     this.Icon = require(`react-icons/lib/fa/${this.props.name}`);
+            //     break;
             // case 'Foundation':
             //     this.Icon = Foundation;
             //     break;
-            case 'MaterialIcons':
-                this.Icon = require(`react-icons/lib/md/${this.props.name}`);
-                break;
+            // case 'MaterialIcons':
+            //     this.Icon = require(`react-icons/lib/md/${this.props.name}`);
+            //     break;
             // case 'Octicons':
             //     this.Icon = Octicons;
             //     break;
             // case 'Zocial':
             //     this.Icon = Zocial;
             //     break;
-            default:
-            case 'Ionicons':
-               this.Icon = require(`react-icons/lib/io/${this.props.name.replace(/^md-/, 'android-')}`);
-               break;
+            // default:
+            // case 'Ionicons':
+            //    this.Icon = require(`react-icons/lib/io/${this.props.name.replace(/^md-/, 'android-')}`);
+            //    break;
         }
     }
 
